@@ -24,17 +24,17 @@ Images can be saved within a React component and imported to a component.
 
 **Part 1**  
 Branch name: `setup-off-on`
-- User story: I can navigate to localhost:3000 in the browser and see a React application.
-- User story: The app has a header and a square on the screen with the word "off" in the middle.
+- User story: I can navigate to localhost:3000 in the browser and see a React application. (DONE)
+- User story: The app has a header and a square on the screen with the word "off" in the middle. (DONE)
 - User story: When I click the square the word toggles from "off" to "on" and then back to "off" again.
 - User story: When the lightbulb is "off" the background color of the box is white. When the lightbulb is "on" the background color of the box is yellow.
 
 **Part 2**  
 Branch name: `assets-switch`
 
-- User story: Instead of seeing a box, I see a picture of a light switch in the "off" position.
-- User story: When I click the light switch the image toggles from an image in the "off" position to an image in the "on" position and then back to "off" again.
-- User story: When the light switch is "off" I see a white (unlit) lightbulb. When I turn the switch "on" I see a yellow (lit) lightbulb.
+- User story: Instead of seeing a box, I see a picture of a light switch in the "off" position. DONE
+- User story: When I click the light switch the image toggles from an image in the "off" position to an image in the "on" position and then back to "off" again. DONE
+- User story: When the light switch is "off" I see a white (unlit) lightbulb. When I turn the switch "on" I see a yellow (lit) lightbulb. DONE
 
 **Part 3: STRETCH**  
 Branch name: `add-remove-lightbulbs`

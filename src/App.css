@@ -1,10 +1,69 @@
-.button{
-  padding: 15px 32px;
-  text-align: center;
-  
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%
 }
 
-.App {
+
+
+
+.lightBulb{
+  color: "black"; 
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid black;
+  }
+
+.bulbBase{
+	border-bottom: 50px solid rgb(133, 131, 131);
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+  height: 100px;
+  width: 40px;
+  transform: translateY(-17px) translateX(19px) rotate(180deg);
+}
+
+.lightSwitchBox{
+  height: 250px;
+  width: 150px;
+  background-color: wheat;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  transform: translateY() translateX();
+  border: solid black;
+  margin-left: 50px;
+}
+
+.onSwitch{
+  height: 15px;
+  width: 10px;
+  background-color: wheat;
+  transform: translateY(-230px) translateX(107px);
+  border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+  border-bottom: 50px solid rgb(0, 0, 0);
+
+}
+
+.offSwitch{
+  height: 15px;
+  width: 10px;
+  background-color: wheat;
+  transform: translateY(-230px) translateX(107px) rotate(180deg);
+  border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+  border-bottom: 50px solid rgb(0, 0, 0);
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -41,4 +100,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
