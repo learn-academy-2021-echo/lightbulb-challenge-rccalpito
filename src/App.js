@@ -6,8 +6,7 @@ class App extends Component{
   render(){
     return(
       <>
-        <h1>{<LightSwitch/>}</h1>
-
+      {<LightSwitch/>}  
       </>
     )
   }
